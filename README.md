@@ -1,3 +1,25 @@
+## Steam Frame
+
+This fork's Frame port is on [`steam-frame-support`](https://github.com/astromaddie/diablo-vr-steam-frame/tree/steam-frame-support).
+It builds a native Linux ARM64 game, keeps the D3D11 renderer through dxvk-native,
+and adds a Vulkan OpenXR binding, Frame controls and Steam packaging.
+
+Follow the [Frame build and installation guide](https://github.com/astromaddie/diablo-vr-steam-frame/blob/steam-frame-support/docs/vr/steam-frame.md)
+for this branch. You need your own `DIABDAT.MPQ`.
+
+```sh
+git clone --recurse-submodules --branch steam-frame-support https://github.com/astromaddie/diablo-vr-steam-frame.git
+cd diablo-vr-steam-frame
+```
+
+There's also a [standalone Diablo VR fork](https://github.com/astromaddie/diablo-vr/blob/steam-frame/README.md)
+with the newer DevilutionX base and VR interface work. It has its own build instructions;
+keep each fork's source and instructions together.
+
+The original Windows VR README for `main` follows.
+
+---
+
 # Diablo VR
 
 **The original Diablo (1996), played in first person inside a VR headset.**
